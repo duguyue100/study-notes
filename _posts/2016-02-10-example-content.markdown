@@ -1,7 +1,7 @@
 ---
 ---
 
-$$a^2+b^2=c^2$$
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper est in imperdiet molestie. Curabitur aliquet sem in ante venenatis.
 
 Morbi ultrices libero imperdiet [lectus](#) dignissim, sit amet bibendum nisl consectetur. Morbi erat purus, pretium at ligula tincidunt, faucibus commodo sem. Etiam vel porttitor est, vitae maximus ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien turpis, cursus non porta ac.
@@ -16,6 +16,10 @@ Nunc nec aliquam tellus. Etiam faucibus magna nibh, ut fermentum velit consectet
 
 ## Dugem
 Nullam vehicula iaculis tortor, in cursus enim auctor vitae. Duis semper pulvinar justo, at vestibulum dolor. Cras fermentum nibh quis nisl imperdiet ornare. Sed nisi nunc, dictum sit amet gravida in, finibus rhoncus orci. Donec scelerisque commodo turpis ac venenatis.
+
+$$
+a^2+b^2=c^2
+$$
 
 {% highlight js %}
 
