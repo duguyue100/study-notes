@@ -6,7 +6,7 @@ baseurl: "/study-notes"
 
 # This will show up at the top of index page
 site_heading: >
-    foo <span class="faded">'s blog</span>
+    Study <span class="faded">Notes</span>
 
 email: duguyue100@gmail.com
 author: Yuhuang Hu
@@ -51,7 +51,7 @@ favicon: true
 favicon_location: "images/favicon.ico"
 
 profile_picture: images/temp.png
-paginate: 5
+paginate: 10
 paginate_path: "/page/:num"
 # tracking_id:  # GA Tracking ID
 
@@ -68,6 +68,20 @@ twitter_image: "http://ankitsultana.me/images/accent.png?1234" # This will show 
 ####################################
 
 markdown: kramdown
+
+kramdown:
+  input:          GFM
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  syntax_highlighter:        coderay
+  coderay_line_numbers:      nil
+  coderay_line_number_start: 1
+  coderay_tab_width:         4
+  coderay_css:               style
+  coderay_wrap:              div
 
 gems:
     - jekyll-paginate
