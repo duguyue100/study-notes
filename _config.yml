@@ -32,14 +32,14 @@ short_bio: >
 permalink: /:title.html
 
 # Comments are powered by disqus
-comments: true
+comments: false
 
 # keep about_stub roughly 12 words long for best results
 # This will show up at the bottom of each post
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    Keep this sentence less than 13 words or it won't look good.
+    Skeptic, Rambler, TV addict, ML protégé, AGI supporter, NOT-DOOMED believer, INI master student.
 
 about_footer: true
 
@@ -51,7 +51,7 @@ favicon: true
 favicon_location: "images/favicon.ico"
 
 profile_picture: images/temp.png
-paginate: 10
+paginate: 20
 paginate_path: "/page/:num"
 # tracking_id:  # GA Tracking ID
 
