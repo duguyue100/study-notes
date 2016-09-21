@@ -50,7 +50,7 @@ facebook_id: yuhuang.hu.5
 favicon: true
 favicon_location: "images/favicon.ico"
 
-profile_picture: images/temp.png
+profile_picture: images/my-photo-round.png
 paginate: 20
 paginate_path: "/page/:num"
 # tracking_id:  # GA Tracking ID
