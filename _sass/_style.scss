@@ -159,7 +159,7 @@ footer {
     font-family: 'Montserrat';
 }
 .container {
-    max-width: $max-width;
+    max-width: $max-width*1.5;
     margin: auto;
     padding: $base-spacing;
 }
