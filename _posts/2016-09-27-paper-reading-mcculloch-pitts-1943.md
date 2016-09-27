@@ -71,3 +71,12 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
 
 +   The neurons of a given net $$\mathcal{N}$$ may be assigned designations
     $$c_{1}, c_{2}, \cdots, c_{n}$$.
+
++   $$N_{i}(t)$$ asserts that $$c_{i}$$ fires at the time $$t$$. $$N_{i}$$ is
+    called the _action of_ $c_{i}$.
+
++   The predicates $$N_{1}, N_{2}, \cdots$$, comprise the syntactical class
+    $$\mathbf{N}$$.
+
++   Define the _peripheral afferents_ of $$\mathcal{N}$$ as the neurons of 
+    $$\mathcal{N}$$ with no axons synapsing upon them.
