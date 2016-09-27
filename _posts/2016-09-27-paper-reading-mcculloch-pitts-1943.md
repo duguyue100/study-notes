@@ -78,5 +78,15 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
 +   The predicates $$N_{1}, N_{2}, \cdots$$, comprise the syntactical class
     $$\mathbf{N}$$.
 
-+   Define the _peripheral afferents_ of $$\mathcal{N}$$ as the neurons of 
-    $$\mathcal{N}$$ with no axons synapsing upon them.
++   Define the _peripheral afferents_ of $$\mathcal{N}$$ as the neurons of
+    $$\mathcal{N}$$ with no axons synapsing upon them. (__Input Neurons__)
+    +   Let $$N_{1},\cdots, N_{p}$$ denote the actions of input neurons and
+        $$N_{p+1}, N_{p+2}, \cdots, N_{n}$$ those of the rest.
+    +   Then a _solution of_ $$\mathcal{N}$$ will be a class of sentences of
+        the form $$S_{i}: N_{p+i}(z_{i})\equiv\Pr_{i}(N_{1}, \cdots, N_{p}, z_{i})$$
+        where $$\Pr_{i}$$ contains no free variable save $$z_{i}$$ and no descriptive
+        symbols save the $$\mathbf{N}$$ in the argument $$Arg$$, and possibly
+        some constant sentences $$sa$$; and such that each $$S_{i}$$ is true
+        of $$\mathcal{N}$$.
+        (_I have a feeling it's $$p+i$$ instead of $$p+1$$_)
+    +   
