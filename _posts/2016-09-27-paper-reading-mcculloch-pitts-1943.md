@@ -108,8 +108,8 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
 
 +   Let us define a _temporal propositional expression (a TPE)_, designating
     a _temporal propositional function (TPF)_, by the following recursion:
-    1.  A $$^{1}p^{1}[z_{1}]$$ is a TPE, where $p_{1}$ is a predicate-variable.
-    2.  If $$\mathbf{S}_{1}$$ and $$\mathbf{S}_{2}$$S are _TPE_ containing the same free
-        individual variable, so are $$S\mathbf{S}_{1}$$, $$\mathbf{S}_{1}\mathbf{v}\mathbf{2}$$,
+    1.  A $$^{1}p^{1}[z_{1}]$$ is a TPE, where $$p_{1}$$ is a predicate-variable.
+    2.  If $$\mathbf{S}_{1}$$ and $$\mathbf{S}_{2}$$ are _TPE_ containing the same free
+        individual variable, so are $$S\mathbf{S}_{1}$$, $$\mathbf{S}_{1}\mathbf{v}\mathbf{S}_{2}$$,
         $$\mathbf{S}_{1}.\mathbf{S}_{2}$$ and $$\mathbf{S}_{i}.\sim \mathbf{S}_{2}$$.
     3.  Nothing else is a _TPE_.
