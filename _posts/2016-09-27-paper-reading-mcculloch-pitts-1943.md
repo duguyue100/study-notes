@@ -144,16 +144,16 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
     +   Example: heat receptor $$N_{1}$$, cold receptor $$N_{2}$$, sensation of heat $$N_{3}$$,
         sensation of cold $$N_{4}$$
 
-        <!-- $$
+        $$
         N_{3}(t)\equiv N_{1}(t-1)\vee N_{2}(t-3) \wedge \sim N_{2}(t-2)
         $$
 
         $$
         N_{4}(t)\equiv N_{2}(t-2)\wedge N_{2}(t-1)
-        $$ -->
+        $$
 
         Assume $$N_{2}(0)=1$$ (feel cold at $$t=0$$), and everywhere else is 0, $$N_{1}(t)=1$$ (remove cold object) when
         $$t\neq 0$$, then $$N_{3}(3)=1$$ and $$N_{4}(3)=0$$.
 
         Assume $$N_{2}(t)=0$$ and $$N_{1}(t)=1$$  at all the time, then
-        $$N_{3}(t)=0$$ and $$N_{4}_{t}=1$$
+        $$N_{3}(t)=0$$ and $$N_{4}(t)=1$$
