@@ -51,3 +51,18 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
     propositions remain those of the logic of propositions.
 
 ## The Theory: Nets Without Circles
+
++   Physical assumptions for the calculus:
+    1.  The activity of the neuron is an "all-or-none" process.
+    2.  A certain fixed number of synapses must be excited within
+        the period of latent addition in order to excite a neuron at any time,
+        and this number is independent of previous activity and position on
+        the neuron.
+    3.  The only significant delay within the nervous system is synaptic delay.
+    4.  The activity of any inhibitory synapse absolutely prevents excitation
+        of the neuron at that time.
+    5.  The structure of the net does not change with time.
+
++   We shall introduce a functor $$S$$, whose value for a property $$P$$ is the
+    property which holds of a number when $$P$$ holds of its predecessor;
+    it is defined by $$S(P)(t) \equiv P(Kx) . t = x'$$;
