@@ -68,3 +68,6 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
     it is defined by $$S(P)(t) \equiv P(Kx) . t = x'$$;
 
 +   we shall write  $$S^{2}\Pr$$ for $$S(S(\Pr))$$, etc.
+
++   The neurons of a given net $\mathcal{N}$ may be assigned designations
+    $c_{1}, c_{2}, \cdots, c_{n}$.
