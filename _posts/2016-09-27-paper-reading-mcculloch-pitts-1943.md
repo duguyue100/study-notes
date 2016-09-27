@@ -157,3 +157,17 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
 
         Assume $$N_{2}(t)=0$$ and $$N_{1}(t)=1$$  at all the time, then
         $$N_{3}(t)=0$$ and $$N_{4}(t)=1$$
+
+        One can rewrite above equations in a fashion which exhibits them as built out
+        of their constituents by the operations in the form
+
+        $$
+        N_{3}(t)\equiv S\{N_{1}(t)\vee S[(SN_{2}(t))\wedge\sim N_{2}(t)]\}
+        $$
+
+        $$
+        N_{4}(t)\equiv S\{[SN_{2}(t)]\wedge N_{2}(t)\}
+        $$
+
++   Theorem IV: _Relative and absolute inhibition are equivalent in the extended
+    sense._
