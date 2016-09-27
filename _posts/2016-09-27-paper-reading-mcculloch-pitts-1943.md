@@ -89,4 +89,12 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
         some constant sentences $$sa$$; and such that each $$S_{i}$$ is true
         of $$\mathcal{N}$$.
         (_I have a feeling it's $$p+i$$ instead of $$p+1$$_)
-    +   
+    +   Given a $$\Pr_{1}(^{1}p^{1}_{1}, ^{1}p^{1}_{2},\cdots,^{1}p^{1}_{p},z_{1}, s)$$,
+        containing no free variable save those in its $$Arg$$, we shall say that
+        it is _realizable in the narrow sense_ if there exists a net $$\mathcal{N}$$
+        and a series of $$N_{i}$$ in it such that $$N_{1}(z_{1})\equiv\Pr_{i}(N_{1}, N_{2}, \cdots, z_{1}, sa_{1})$$
+        is true of it, where $$sa_{1}$$ has the form $$\mathbf{N}(0)$$.
+        (It seems $$N_{i}$$ only receives time, so is $$z$$ also time?)
+    +   We shall call it _realizable in the extended sense_, or simply _realizable_,
+        if for some $$n$$, $$S^{n}(\Pr_{1})(p_{1}, \cdots, p_{p}, z_{1}, s) is
+        realizable in the above sense.
