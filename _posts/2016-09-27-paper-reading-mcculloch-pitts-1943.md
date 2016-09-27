@@ -66,6 +66,7 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
 +   We shall introduce a functor $$S$$, whose value for a property $$P$$ is the
     property which holds of a number when $$P$$ holds of its predecessor;
     it is defined by $$S(P)(t) \equiv P(Kx) . t = x'$$;
+    (_so is $$S$$ is like an activation function?_)
 
 +   we shall write  $$S^{2}\Pr$$ for $$S(S(\Pr))$$, etc.
 
@@ -106,7 +107,7 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
 
 +   A net will be called _cyclic_ if it contains a circle.
 
-+   Let us define a _temporal propositional expression (a TPE)_, designating
++   Let us define a _temporal propositional expression (a TPE)_ (some logical expression), designating
     a _temporal propositional function (TPF)_, by the following recursion:
     1.  A $$^{1}p^{1}[z_{1}]$$ is a TPE, where $$p_{1}$$ is a predicate-variable.
     2.  If $$\mathbf{S}_{1}$$ and $$\mathbf{S}_{2}$$ are _TPE_ containing the same free
@@ -125,3 +126,34 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
     and the number of excitatory neurons that fires are larger than $$\theta_{i}$$.
 
     So there is always a realization of net where there is no recurrent unit in there.
+
++   Theorem II: _Every TPE is realizable by a net of order zero._
+
++   Theorem III: _Let there be given a complex sentence $$\mathbf{S}_{1}$$ built up in any manner out
+    of elementary sentences of the form $$p(z_{1}-zz)$$ where $$zz$$ is any numeral,
+    by any of the propositional connections: negation, disjunction,
+    conjunction, implication, and equivalence. Then $\mathbf{S}_{1}$$ is a TPE and
+    only if it is false when its constituent $$p(z_{1} - zz)$$ are all assumed
+    false--i.e., replaced by false sentences -- or that the last line in its
+    truth-table contains an 'F',--or there is no term in its Hilbert disjunctive
+    normal form composed exclusively of negated terms_.
+    +   in fact provide a very convenient and workable procedure for constructing
+        nervous nets to order for those cases where there is no reference to
+        events indefinitely far in the past in the specification of
+        the conditions.
+    +   Example: heat receptor $$N_{1}$$, cold receptor $$N_{2}$$, sensation of heat $$N_{3}$$,
+        sensation of cold $$N_{4}$$
+
+        $$
+        N_{3}(t)\equiv N_{1}(t-1)\vee N_{2}(t-3) \wedge \sim N_{2}(t-2)
+        $$
+
+        $$
+        N_{4}(t)\equiv N_{2}(t-2)\wedge N_{2}(t-1)
+        $$
+
+        Assume $$N_{2}(0)=1$$ (feel cold at $$t=0$$), and everywhere else is 0, $$N_{1}(t)=1$$ (remove cold object) when
+        $$t\neq 0$$, then $$N_{3}(3)=1$$ and $$N_{4}(3)=0$$.
+
+        Assume $$N_{2}(t)=0$$ and $$N_{1}(t)=1$$  at all the time, then
+        $$N_{3}(t)=0$$ and $$N_{4}_{t}=1$$
