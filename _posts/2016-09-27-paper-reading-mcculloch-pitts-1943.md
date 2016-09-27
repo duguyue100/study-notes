@@ -129,14 +129,14 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
 
 +   Theorem II: _Every TPE is realizable by a net of order zero._
 
-+   Theorem III: Let there be given a complex sentence $$\mathbf{S}_{1}$$ built up in any manner out
++   Theorem III: _Let there be given a complex sentence $$\mathbf{S}_{1}$$ built up in any manner out
     of elementary sentences of the form $$p(z_{1}-zz)$$ where $$zz$$ is any numeral,
     by any of the propositional connections: negation, disjunction,
-    conjunction, implication, and equivalence. Then $\mathbf{S}_1$$ is a TPE and
+    conjunction, implication, and equivalence. Then $$\mathbf{S}_1$$ is a TPE and
     only if it is false when its constituent $$p(z_1- zz)$$ are all assumed
     false--i.e., replaced by false sentences -- or that the last line in its
     truth-table contains an 'F',--or there is no term in its Hilbert disjunctive
-    normal form composed exclusively of negated terms.
+    normal form composed exclusively of negated terms_.
     +   in fact provide a very convenient and workable procedure for constructing
         nervous nets to order for those cases where there is no reference to
         events indefinitely far in the past in the specification of
