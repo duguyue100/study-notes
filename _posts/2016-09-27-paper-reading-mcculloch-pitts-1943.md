@@ -96,5 +96,20 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
         is true of it, where $$sa_{1}$$ has the form $$\mathbf{N}(0)$$.
         (It seems $$N_{i}$$ only receives time, so is $$z$$ also time?)
     +   We shall call it _realizable in the extended sense_, or simply _realizable_,
-        if for some $$n$$, $$S^{n}(\Pr_{1})(p_{1}, \cdots, p_{p}, z_{1}, s) is
+        if for some $$n$$, $$S^{n}(\Pr_{1})(p_{1}, \cdots, p_{p}, z_{1}, s)$$ is
         realizable in the above sense.
+    +   $$c_{p_{i}}$$ is here the realizing neuron.
+    +   We shall say of two laws of nervous excitation which are such that every $S$
+        which is realizable in either sense upon one supposition is also realizable,
+        perhaps by a different net, upon the other, that  they are equivalent
+        assumptions, in that sense.
+
++   A net will be called _cyclic_ if it contains a circle.
+
++   Let us define a _temporal propositional expression (a TPE)_, designating
+    a _temporal propositional function (TPF)_, by the following recursion:
+    1.  A $$^{1}p^{1}[z_{1}]$$ is a TPE, where $p_{1}$ is a predicate-variable.
+    2.  If $$\mathbf{S}_{1}$$ and $$\mathbf{S}_{2}$$S are _TPE_ containing the same free
+        individual variable, so are $$S\mathbf{S}_{1}$$, $$\mathbf{S}_{1}\mathbf{v}\mathbf{2}$$,
+        $$\mathbf{S}_{1}.\mathbf{S}_{2}$$ and $$\mathbf{S}_{i}.\sim \mathbf{S}_{2}$$.
+    3.  Nothing else is a _TPE_.
