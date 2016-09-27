@@ -110,6 +110,13 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
     a _temporal propositional function (TPF)_, by the following recursion:
     1.  A $$^{1}p^{1}[z_{1}]$$ is a TPE, where $$p_{1}$$ is a predicate-variable.
     2.  If $$\mathbf{S}_{1}$$ and $$\mathbf{S}_{2}$$ are _TPE_ containing the same free
-        individual variable, so are $$S\mathbf{S}_{1}$$, $$\mathbf{S}_{1}\mathbf{v}\mathbf{S}_{2}$$,
-        $$\mathbf{S}_{1}.\mathbf{S}_{2}$$ and $$\mathbf{S}_{i}.\sim \mathbf{S}_{2}$$.
+        individual variable, so are $$S\mathbf{S}_{1}$$, $$\mathbf{S}_{1}\mathbf{v}\mathbf{S}_{2}$$ (or),
+        $$\mathbf{S}_{1}.\mathbf{S}_{2}$$ (and) and $$\mathbf{S}_{i}.\sim \mathbf{S}_{2}$$ (not).
     3.  Nothing else is a _TPE_.
+
++   Theorem I: _Every net of order 0 can be solved in terms of temporal propositional
+    expressions. (net with order 0 is the net without recurrent unit)_
+
+    $$
+    N_{i}(z_{1})\equiv S\left\{\prod_{m=1}^{q}\sim N_{jm}(z_{1}) . \sum_{\alpha\in\kappa_{i}}\prod_{s\in\alpha}N_{is}(z_{1})\right\}
+    $$
