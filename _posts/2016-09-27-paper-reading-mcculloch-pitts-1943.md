@@ -66,3 +66,5 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
 +   We shall introduce a functor $$S$$, whose value for a property $$P$$ is the
     property which holds of a number when $$P$$ holds of its predecessor;
     it is defined by $$S(P)(t) \equiv P(Kx) . t = x'$$;
+
++   we shall write  $$S^{2}\Pr$$ for $$S(S(\Pr))$$, etc.
