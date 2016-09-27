@@ -120,3 +120,8 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
     $$
     N_{i}(z_{1})\equiv S\left\{\prod_{m=1}^{q}\sim N_{jm}(z_{1}) . \sum_{\alpha\in\kappa_{i}}\prod_{s\in\alpha}N_{is}(z_{1})\right\}
     $$
+
+    So the above equation means when all inhibitory synapses are not firing at previous time,
+    and the number of excitatory neurons that fires are larger than $$\theta_{i}$$.
+
+    So there is always a realization of net where there is no recurrent unit in there.
