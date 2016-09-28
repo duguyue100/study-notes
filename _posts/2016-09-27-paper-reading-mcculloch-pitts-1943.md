@@ -171,3 +171,19 @@ title: Paper Reading - A Logical Calculus of the Ideas Immanent in Nervous Activ
 
 +   Theorem IV: _Relative and absolute inhibition are equivalent in the extended
     sense._
+    +   The case of _relative inhibition_. By this we mean the supposition that
+        the firing of an inhibitory synapse does not absolutely prevent the
+        firing of the neuron, but merely raises its threshold, so that a greater
+        number of excitatory synapses must fire concurrently to fire it than
+        would otherwise be needed.
+
++   Theorem V: _Extinction is equivalent to absolute inhibition_.
+
++   Theorem VI: _Facilitation and temporal summation may be replaced by spatial
+    summation._
+
++   Theorem VII: _Alterable synapses can be replaced by circles._
+
+### The Theory: Nets with Circles
+
+### Consequences
