@@ -44,3 +44,19 @@ title: Paper Reading - Neural networks and physical systems with emergent collec
 
 +   The instantaneous state ofthe system is specified by listing the $$N$$
     values of $$V_{i}$$, so it is represented by a binary word of $$N$$ bits.
+
++   For each neuron $$i$$ there is a fixed threshold $$U_{i}$$ Each neuron
+    $$i$$ readjusts its state randomly in time but with a mean attempt rate
+    $$W$$, setting
+
+    $$
+    \begin{array}{l}
+        V_{i}\rightarrow 1 \\
+        V_{i}\rightarrow 0
+    \end{array}\text{ if }\sum_{j\neq i}T_{ij}V_{j}
+    \begin{array}{l}
+        >U_{i} \\
+        <U_{i}
+
+    \end{array}.
+    $$
