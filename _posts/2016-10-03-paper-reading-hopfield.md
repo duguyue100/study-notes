@@ -32,3 +32,15 @@ title: Paper Reading - Neural networks and physical systems with emergent collec
     $$X_{b},\ldots$$, The starting point $$X=X_{a}+\Delta$$ represents a
     partial knowledge of the item $$X_{a}$$, and the system then generates
     the total information $$X_{a}$$__.
+
+### The model system
+
++   Each neuron $$i$$ has two states $$V_{i}=0$$ (not firing) and $$V_{i}=1$$
+    (firing at maximum rate)
+
++   When neuron $$i$$ has a connection made to it from neuron $$j$$,
+    the strength of connection is defined as $$T_{ij}$$. (Nonconnected neurons
+    have $$T_{ij}\equiv 0$$)
+
++   The instantaneous state ofthe system is specified by listing the $$N$$
+    values of $$V_{i}$$, so it is represented by a binary word of $$N$$ bits.
