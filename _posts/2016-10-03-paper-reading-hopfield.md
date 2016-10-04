@@ -147,3 +147,60 @@ title: Paper Reading - Neural networks and physical systems with emergent collec
     $$
 
     where $$T_{ij}$$ represents the effectiveness of a synapse.
+
+### Studies of the collective behaviors of the model
+
++   The model has stable limit points. Consider the special case
+    $$T_{ij}=T_{ji}$$, and define
+
+    $$
+    E=-\frac{1}{2}\sum_{i\neq j}\sum_{i\neq j} T_{ij}V_{i}V_{j}
+    $$
+
+    $$\Delta E$$ due to $$\Delta V_{i}$$ is given by
+
+    $$
+    \Delta E=-\Delta V_{i}\sum_{j\neq i} T_{ij}V_{j}.
+    $$
+
+    Thus, the algorithm for altering $$V_{i}$$ causes $$E$$ to be a
+    monotonically decreasing function. State changes will continue until a
+    least (local) $$E$$ is reached. This case is isomorphic with an Ising
+    model. $$T_{ij}$$ provides the role of the exchange coupling, and there
+    is also an external local field at each site. When $$T_{ij}$$ is symmetric
+    but has a random character (the spin glass) there are known to
+    be many (locally) stable states.
+
++   $$H_{i}^{s'}$$ is the "effective field" on neuron $$i$$ when the state of
+    the system is $$s'$$, one of the nominal memory states. The expectation
+    value of this sum is $$\pm N/2$$ as appropriate. The $$s\neq s'$$ summation
+    in Eq. 2 contributes no mean, but has a rms noise of $$[(n-1)N/2]^{1/2}\equiv \sigma$$.
+    For $$nN$$ large, this noise is approximately Gaussian and the probability
+    of an error in a single particular bit of a particular memory will be
+
+    $$
+    P=\frac{1}{\sqrt{2\pi\sigma^{2}}}\int_{N/2}^{\infty}e^{-x^{2}/2\sigma^{2}}\,dx.
+    $$
+
++   The experimental results of half the memories being well retained
+    at $$n=0.15N$$ and and the rest badly retained is expected to be true for
+    all large $$N$$.
+
+### Discussion
+
++   Collective computational properties spontaneously arose.
+
++   Memories are retained as stable entities or Gestalts and can be correctly
+    recalled from any reasonably sized subpart.
+
++   The bridge between simple circuits and the complex computational
+    properties of higher nervous systems may be the spontaneous emergence of
+    new computational capabilities from the collective behavior of large
+    numbers of simple processing elements.
+
++   Implementation of a similar model by using integrated circuits
+    would lead to chips which are much less sensitive to element
+    failure and soft-failure than are normal circuits.
+
++   Their asynchronous parallel processing capability would provide rapid
+    solutions to some special classes of computational problems.
