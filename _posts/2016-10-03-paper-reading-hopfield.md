@@ -124,3 +124,26 @@ title: Paper Reading - Neural networks and physical systems with emergent collec
 +   The mean rate at which action potentials are generated is a smooth
     function of the mean membrane potential, having the general form shown
     in Fig. 1.
+
++   The biological information sent to other neurons often lies in a
+    short-time average of the firing rate. When this is so, one can
+    neglect the details of individual action potentials and regard Fig. 1 as a
+    smooth input-output relationship.
+
++   A study of emergent collective effects and spontaneous computation
+    must necessarily focus on the nonlinearity of the input-output relationship.
+
++   Delays in synaptic transmission (of partially stochastic character)
+    and in the transmission of impulses along axons and dendrites
+    produce a delay between the input of a neuron and the
+    generation of an effective output. All such delays have been
+    modeled by a single parameter, the stochastic mean processing time $$1/W$$.
+
++   The synapses are activated by arriving action potentials. The input signal
+    to a cell $$i$$ can be taken to be
+
+    $$
+    \sum_{j}T_{ij}V_{j}
+    $$
+
+    where $$T_{ij}$$ represents the effectiveness of a synapse.
