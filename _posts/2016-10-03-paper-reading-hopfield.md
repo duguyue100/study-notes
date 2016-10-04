@@ -60,7 +60,7 @@ title: Paper Reading - Neural networks and physical systems with emergent collec
 
     \end{array}.
     $$
-    
+
     Thus, each neuron randomly and asynchronously evaluates
     whether it is above or below threshold and readjusts accordingly.
     (Unless otherwise stated, we choose $$U_{i}=0$$.)
@@ -92,7 +92,7 @@ title: Paper Reading - Neural networks and physical systems with emergent collec
     \sum_{j}T_{ij}V_{j}^{s'}=\sum_{s}(2V_{i}^{s}-1)\left[\sum_{j}V_{j}^{s'}(2V_{j}^{s}-1)\right]\equiv H_{j}^{s'}.
     $$
 
-    The mean value of the bracketed term in above equation is 0 unless $s=s'$,
+    The mean value of the bracketed term in above equation is 0 unless $$s=s'$$,
     for which the mean is $$N/2$$. This pseudoorthogonality yields
 
     $$
