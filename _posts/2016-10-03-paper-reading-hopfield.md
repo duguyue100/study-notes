@@ -60,3 +60,44 @@ title: Paper Reading - Neural networks and physical systems with emergent collec
 
     \end{array}.
     $$
+    Thus, each neuron randomly and asynchronously evaluates
+    whether it is above or below threshold and readjusts accordingly.
+    (Unless otherwise stated, we choose $$U_{i}=0$$.)
+
++   Differences with Perceptron
+    +   Perceptrons were modeled chiefly with neural connections in a
+        "forward" direction $$A\rightarrow B\rightarrow C\rightarrow D$$.
+        All our interesting results arise as consequences of the strong
+        back-coupling.
+    +   Perceptron studies usually made a random net of neurons deal directly
+        with a real physical world and did not ask the questions essential
+        to finding the more abstract emergent computational properties.
+    +   Perceptron modeling required synchronous neurons like a conventional
+        digital computer. There would be no way to use global synchrony
+        effectively.
+
+### The information storage algorithm
+
++   Suppose we wish to store the set of states $$V^{s}, s=1,\cdots, n$$. We
+    use the storage prescription:
+
+    $$
+    T_{ij}=\sum_{s}(2V_{i}^{s}-1)(2V_{j}^{s}-1)
+    $$
+
+    but with $$T_{ii}=0$$. From this definition
+
+    $$
+    \sum_{j}T_{ij}V_{j}^{s'}=\sum_{s}(2V_{i}^{s}-1)\left[\sum_{j}V_{j}^{s'}(2V_{j}^{s}-1)\right]\equiv H_{j}^{s'}.
+    $$
+
+    The mean value of the bracketed term in above equation is 0 unless $s=s'$,
+    for which the mean is $$N/2$$. This pseudoorthogonality yields
+
+    $$
+    \sum_{j}T_{ij}V_{j}^{s'}\equiv\langle H_{i}^{s'}\rangle \approx (2V_{i}^{s'}-1)N/2
+    $$
+
+    and is positive if $$V_{i}^{s'}=1$$ and negative if $$V_{i}^{s'}=0$$.
+    Expect for the noise coming from the $$s\neq s'$$ terms, the stored state
+    would always be stable under out processing algorithm.
