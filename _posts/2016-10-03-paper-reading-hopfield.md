@@ -60,6 +60,7 @@ title: Paper Reading - Neural networks and physical systems with emergent collec
 
     \end{array}.
     $$
+    
     Thus, each neuron randomly and asynchronously evaluates
     whether it is above or below threshold and readjusts accordingly.
     (Unless otherwise stated, we choose $$U_{i}=0$$.)
