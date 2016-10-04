@@ -102,3 +102,25 @@ title: Paper Reading - Neural networks and physical systems with emergent collec
     and is positive if $$V_{i}^{s'}=1$$ and negative if $$V_{i}^{s'}=0$$.
     Expect for the noise coming from the $$s\neq s'$$ terms, the stored state
     would always be stable under out processing algorithm.
+
++   Such matrices $$T_{ij}$$ have been used in theories of linear associative
+    nets to produce an output pattern from a paired input stimulus,
+    $$S_{1}\rightarrow O_{1}$$. A second association $$S_{2}\rightarrow O_{2}$$
+    can be simultaneously stored in the same network. But the confusing simulus
+    $$0.6 S_{1}+0.4 S_{2}$$ will produce a generally meaningless mixed output
+    $$0.6 O_{1}+0.4 O_{1}$$.
+
++   Our model, in contrast, will use its strong nonlinearity to make choices,
+    produce categories, and regenerate information and, with high probability,
+    will generate the output $$O_{1}$$ from such a confusing mixed stimulus.
+
++   Our model obtains its emergent computational properties from simple
+    properties of many cells rather than circuitry.
+
+### The biological interpretation of the model
+
+![fig1]({{ site.baseurl }}/images/reading-imgs/reading-hopfield-1.png)
+
++   The mean rate at which action potentials are generated is a smooth
+    function of the mean membrane potential, having the general form shown
+    in Fig. 1.
