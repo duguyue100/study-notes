@@ -208,7 +208,7 @@ title: Paper Reading - Neural Theory of Association and Concept-Formation
   \Delta \mathbf{w}(t)=-c\mathbf{w}(t)+d\mathbf{r}[\mathbf{w}(t), \mathbf{x}(t), z(t)]
   $$
 
-  for suitable positive constant $$c$ and $$d$$. This shows the direction of modification of $$\mathbf{w}$$
+  for suitable positive constant $$c$$ and $$d$$. This shows the direction of modification of $$\mathbf{w}$$
 
 + We consider the case when there exists a function $$R(\mathbf{w}, \mathbf{x}, z)$$ for which
 
