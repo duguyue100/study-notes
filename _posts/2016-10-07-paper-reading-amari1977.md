@@ -247,3 +247,16 @@ title: Paper Reading - Neural Theory of Association and Concept-Formation
   $$
   c\mathbf{w}=d\langle \mathbf{r}(\mathbf{w}, \mathbf{x}, z)\rangle
   $$
+
+
+
+## Conclusion
+
++ used two types of nets with recurrent connections and non-recurrent connections
+  as models of association and concept-formation, respectively.
+
++ Proposed two types of self-organization
+  + orthogonal learning
+  + covariance learning
+
++ The present analysis will help in building more realistic models of the brain because it provides a possible neural logic.
