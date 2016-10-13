@@ -35,3 +35,48 @@ title: Paper Reading - Neural Theory of Association and Concept-Formation
 + The output signal $$y$$ of the neuron pool is represented by the average pulse rate over this bundle of axons.
 
 + A signal $$x_{i}$$ is also carried by a bundle of axons (Fig. 1), representing the average pulse rate of the corresponding bundle.
+
++ Let us consider a bistable neuron pool
+  + it enters the excited state when a weighted sum
+
+    $$
+    u=\sum_{\tau=1}^{n}w_{i}x_{i}
+    $$
+
+    of the input signals exceeds at threshold value $$h_{1}$$, and stays in
+    that state.
+  + it enters the resting state, when the weighted sum $$u$$ becomes lower than
+    another threshold value $$h_{2} (h_{2}<h_{1})$$.
+  + we can represent
+    + high pulse rate output by $$y=1$$
+    + low pulse rate output by $$y=0$$
+    + The behavior can approximately be described by
+      
+      $$
+      y=\varphi \left[\sum w_{i}x_{i}+(h_{1}-h_{2})y-h_{1}\right]
+      $$
+
+      where $$\varphi$$ is the step-function defined by
+
+      $$
+      \varphi(u)=\begin{cases}
+        1, & u>0 \\
+        0, & u\leq 0
+      \end{cases}
+      $$
+
+    + when $$h_{1}=h_{2}$$ holds, the equation is simplified to
+      
+      $$
+      y=\varphi\left(\sum w_{i}x_{i}-h\right)
+      $$
+
+      This is the behavior of the so-called __McCulloch-Pitts__ formal neuron.
+
+  + We hereafter use McCulloch-Pitts formal neurons as the constituent elements
+    of our neuron nets.
+
+  + We call
+    + $$w_{i}$$ the connection weight of input $$x_{i}$$
+    + $$u$$ the potential
+
