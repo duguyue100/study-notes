@@ -180,8 +180,8 @@ title: Paper Reading - Neural Theory of Association and Concept-Formation
 + When $$r_{i}(t)$$ is given by $$r_{i}(t)=x_{i}(t)y(t)$$, it realizes the
   Hebbian rule.
 
-+ When the reinforcement signal is given by $$r_{i}(t)=x_{i}(t)u(t), where
-  $$u(t)$$ is the potential evoked by the input $$\mathbf{x}(t)
++ When the reinforcement signal is given by $$r_{i}(t)=x_{i}(t)u(t)$$, where
+  $$u(t)$$ is the potential evoked by the input $$\mathbf{x}(t)$$
 
   $$
   u(t)=\sum w_{j}(t)x_{j}
