@@ -23,3 +23,15 @@ title: Paper Reading - Neural Theory of Association and Concept-Formation
   + After the learning is completed, the net, receiving a pattern belonging to a cluster, falls into the equilibrium state corresponding to the cluster.
   + short-term memory as recall pattern
   + long-term memory as learning weights
+
+## Neural Models of Association and Concept-formation
+
+### Neural Pool
+
+![neural pool]({{site.baseurl}}/images/reading-imgs/reading-amari-1.png)
+
++ Neuron pools play the role of building blocks of the models in the present paper.
+
++ The output signal $$y$$ of the neuron pool is represented by the average pulse rate over this bundle of axons.
+
++ A signal $$x_{i}$$ is also carried by a bundle of axons (Fig. 1), representing the average pulse rate of the corresponding bundle.
