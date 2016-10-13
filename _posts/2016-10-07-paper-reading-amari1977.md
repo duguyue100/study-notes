@@ -132,3 +132,32 @@ title: Paper Reading - Neural Theory of Association and Concept-Formation
 
 ### Model Net for Concept Formation
 
++ We consider the net consists of $$n$$ elements.
+  + Let $$x_{1}(t), \ldots, x_{n}(t)$$ be the outputs of the net at time $$t$$.
+
+    $$
+    \mathbf{x}(t)=[x_{1}(t), \ldots, x_{n}(t)]^{\top}
+    $$
+    
+    and call it the state of the net at time $$t$$.
+  + The output $$\mathbf{x}(t+1)$$ at time $$t+1$$ is determined by
+
+    $$
+    \mathbf{x}(t+1)=\varphi[\mathbf{W}\mathbf{x}(t)-\mathbf{h}]
+    $$
+
+    which we write symbolically as
+
+    $$
+    \mathbf{x}(t+1)=T\mathbf{x}(t),
+    $$
+
+    and called $$T$$ the state-transition operator.
+
++ A state $$\mathbf{x}$$ which satisfies $$T\mathbf{x}=\mathbf{x}$$ is called
+  an equilibrium state of the net.
+
++ The net can have many equilibrium states.
+
++ The net may be regarded as a pattern generator in which patterns $$\mathbf{x}_{1},\ldots, \mathbf{x}_{k}$$
+  are coded in the form of equilibria.
