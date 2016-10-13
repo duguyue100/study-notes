@@ -80,3 +80,55 @@ title: Paper Reading - Neural Theory of Association and Concept-Formation
     + $$w_{i}$$ the connection weight of input $$x_{i}$$
     + $$u$$ the potential
 
+### Model Net for Association
+
++ The net
+  + receives $$n$$ input signals $$x_{1},\ldots, x_{n}$$ and
+  + transforms them into $$m$$ output signals $$y_{1},\ldots, y_{m}$$.
+
++ Every input $$x_{j}$$ is connected with all the elements.
+
++ Let $$w_{ij}$$ be the connection weight of $$x_{j}$$ entering into the $$i$$-th element.
++ Let $$h_{i}$$ be the threshold of the $$i$$-th element.
+
++ The output $$y_{i}$$ is determined by
+
+  $$
+  y_{i}=\varphi\left(\sum_{j=1}^{n}w_{ij}x_{j}-h_{i}\right), i=1,\ldots, m
+  $$
+
++ Rewrite in matrix form 
+  
+  $$
+  \mathbf{y}=\varphi(\mathbf{W}\mathbf{x}-\mathbf{h}),
+  $$
+
+  where function $$\varphi$$ operates component-wise.
+
++ We symbolically write
+
+  $$
+  \mathbf{y}=\mathbf{T}\mathbf{x}
+  $$
+
+  to show $$\mathbf{x}$$ is transformed into $$\mathbf{y}$$.
+
++ The "teacher" signal
+
+  $$
+  \mathbf{z}=(z_{1}, \ldots, z_{m})^{\top}
+  $$
+
+  is strong, the output signal $$\mathbf{y}$$ is always set equal to $$\mathbf{z}$$
+  when $$\mathbf{z}$$ arrives.
+
++ The "teacher" signal $$\mathbf{z}$$ arrives at the net in the learning phase only.
+
++ We have $$k$$ pairs of patterns $$(x_{\alpha}, z_{\alpha})$$'s. When the net,
+  receiving input $$x_{\alpha}$$, outputs the associated pattern $$z_{\alpha}$$,
+  i.e. when $$z_{\alpha}=Tx_{\alpha}$$ holds, we say that the net associates
+  $$z_{\alpha}$$ with $$x_{\alpha}$$.
+
+
+### Model Net for Concept Formation
+
