@@ -161,3 +161,89 @@ title: Paper Reading - Neural Theory of Association and Concept-Formation
 
 + The net may be regarded as a pattern generator in which patterns $$\mathbf{x}_{1},\ldots, \mathbf{x}_{k}$$
   are coded in the form of equilibria.
+
+
+## Self-organization of Nerve Elements
+
+### Convergence of learning
+
++ A connection weight $$w_{i}$$ of an element increases in proportion to a 
+  reinforcement signal $$r_{i}$$ in the learning phase. It decays slowly at
+  the same time. The rule of modification of a weight is, hence, formulated as
+  
+  $$
+  w_{i}(t+1)=(1-c)w_{i}(t)+dr_{i}(t),
+  $$
+
+  where $$c$$ and $$d$$ are constants.
+
++ When $$r_{i}(t)$$ is given by $$r_{i}(t)=x_{i}(t)y(t)$$, it realizes the
+  Hebbian rule.
+
++ When the reinforcement signal is given by $$r_{i}(t)=x_{i}(t)u(t), where
+  $$u(t)$$ is the potential evoked by the input $$\mathbf{x}(t)
+
+  $$
+  u(t)=\sum w_{j}(t)x_{j}
+  $$
+
+  we obtain a learning rule based on the potential of the neuron.
+
+  + The reinforcement signal $$\mathbf{r}$$ is a function of input $$\mathbf{x}$$,
+    $$\mathbf{w}$$, and $$z$$. We represent it by
+
+    $$
+    \mathbf{r}=\mathbf{r}(\mathbf{w}, \mathbf{x}, z)
+    $$
+
++ Let $$\Delta \mathbf{w}(t)$$ be the increment of the connection at time $$t$$
+
+  $$
+  \Delta \mathbf{w}(t)=\mathbf{w}(t+1)-\mathbf{w}(t)
+  $$
+
++ Then the rule of weight modification can be written as
+
+  $$
+  \Delta \mathbf{w}(t)=-c\mathbf{w}(t)+d\mathbf{r}[\mathbf{w}(t), \mathbf{x}(t), z(t)]
+  $$
+
+  for suitable positive constant $$c$ and $$d$$. This shows the direction of modification of $$\mathbf{w}$$
+
++ We consider the case when there exists a function $$R(\mathbf{w}, \mathbf{x}, z)$$ for which
+
+  $$
+  \frac{\partial R}{\partial \mathbf{w}}=\mathbf{w}-\frac{d}{c}\mathbf{r}(\mathbf{w}, \mathbf{x}, z)
+  $$
+
+  holds, then
+
+  $$
+  \Delta \mathbf{w}=-c\frac{\partial R}{\partial \mathbf{w}}
+  $$
+
+  This means that $$\mathbf{w}$$ is modified in the negative direction of the gradient
+  of the gradient of $$R$$ with respect to $$\mathbf{w}$$
+
++ Let $$L(\mathbf{w})$$ be the expected value of $$R$$ for possible inputs $$(\mathbf{x}, z)$$
+
+  $$
+  L(\mathbf{w})=\langle R(\mathbf{w}, \mathbf{x}, z)\rangle
+  $$
+
+  where $$\langle\rangle$$ denotes the expectation with respect to $$\mathbf{x}$$ and $$z$$.
+
+
++ By taking the expectation, we have
+  
+  $$
+  \langle\Delta \mathbf{w}\rangle=-c\frac{\partial L(\mathbf{w})}{\partial \mathbf{w}}.
+  $$
+
++ We assume in the following that the decay constant $$c$$ is sufficiently small so that
+  the connection weights converge to the minimum of $$L(\mathbf{w})$$. The minimum is
+  attained at $$\mathbf{w}$$ satisfying
+
+  $$
+  c\mathbf{w}=d\langle \mathbf{r}(\mathbf{w}, \mathbf{x}, z)\rangle
+  $$
