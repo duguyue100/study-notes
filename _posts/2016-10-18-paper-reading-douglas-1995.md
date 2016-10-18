@@ -32,7 +32,7 @@ title: Paper Reading - Recurrent Excitation in Neocortical Circuits
 
 + If $$G>\alpha$$, the recurrent excitation within the pupulation is stable in the sense that it remains bounded without the restraint of saturation.
 
-+ As $$\alpha$$ approaches $$G$$, the total input current is mainly attributable to the recurrent $$I_{\text{rec}} rather than the feedforward current $$I_{\text{ff}}$$ and the response of the system becomes domainated by the contribution of the recurrent pathway.
++ As $$\alpha$$ approaches $$G$$, the total input current is mainly attributable to the recurrent $$I_{\text{rec}}$$ rather than the feedforward current $$I_{\text{ff}}$$ and the response of the system becomes domainated by the contribution of the recurrent pathway.
 
 + If $$\alpha>G$$, the open loop gain exceeds 1 and there is no equilibrium.
 
