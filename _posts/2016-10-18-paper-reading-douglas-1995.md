@@ -53,3 +53,9 @@ title: Paper Reading - Recurrent Excitation in Neocortical Circuits
    and an amplification factor of $$1/(G+\beta-\alpha)$$
 
 + The feedback inhibition mediated by linear synapses acts as a multiplicative, shunting-like inhibition that changes the gain of the cortical response to a given input current, whereas linear feedforward inhibition acts more like an offset that reduces the input current $$I_{\text{in}}$$ by a given amount.
+
++ Overall, the population of neurons cooperatively restores the incoming stimulus toward a pattern that is latent in the recurrent connectivity. 
+
++ Similar circuits are likely to explain receptive field properties in other sensory areas.
+
++ The high degree of cortical interconnectivity, compared to the small number of extracortical inputs, raises the possibility that receptive field properties are not so much determined by the specific patterns of thalamic afferents but are shaped by the collective behavior of large populations of cortical cells. 
