@@ -31,3 +31,11 @@ title: Philosophy of Mind Notes
     +   The body itself makes no decisions
 
 ### Arguments in favor of substance dualism
+
++   Language
+    1.  Minds can use language.
+    2.  No physical object can use language.
+    3.  Therefore, minds are not physical objects.
+    +   Above argument was formulated by Descartes.
+    +   The rules of grammatical sentences are called __syntax__ of the language.
+    +   The words and sentences of a language is called the __semantics__ of that language.
