@@ -76,4 +76,20 @@ title: Philosophy of Mind Notes
         cause people to behave as they do.
 
 3.  The explanatory weakness of substance dualism.
-    
+    +   General features for good mental states
+        +   Some mental states are caused by states of the world.
+        +   Some mental states cause actions.
+        +   Some mental states cause other mental states.
+        +   Some mental states are conscious.
+        +   Some mental states are about things in the world.
+        +   Some kinds of mental states are systematically correlated with certain kind of brain states.
+    +   substance dualism failed to explain every one of them.
+
+### Property dualism
+
++   Substance is something which could be the only thing in the universe.
+
++   Epiphenomenalism
+    +    physical properties of the brain cause non-physical properties of the brain, but not vice versa.
+
+
